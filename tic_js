@@ -1,0 +1,17 @@
+grid = [
+    ['.' , '.', '.'],
+    ['.' , '.' , '.'],
+    ['.' , '.' , '.'],
+]
+
+grid [1][1] = "X"
+for (r = 0; r < grid.length; r++){
+    // console.log(grid[r]);
+    row = grid[r];
+    output = ""
+    for ( c=0; c < row.length; c ++){
+        output += row[c] + ' '
+
+    }
+    console.log(output)
+}
