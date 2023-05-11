@@ -6,7 +6,6 @@ let products = [
    ];
 
    products.sort(function(a,b){
-
     if (b.product < a.product) return -1;
     else if (b.product == a.product) return 0 ;
     else return 1;
